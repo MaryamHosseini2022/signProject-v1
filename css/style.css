@@ -1,0 +1,41 @@
+body{
+    background-color: rgb(235, 229, 229);
+    padding: 18px;
+}
+
+h1{
+    font-size: 24px;
+    font-weight: 800;
+    white-space: nowrap;
+    color: rgb(21, 21, 20);
+}
+
+.canvas-style{
+    border: 1px solid brown;
+}
+button{
+    padding: 10px 15px;
+    border-radius: 8px;
+}
+.delete-btn{
+    border: 1px solid rgb(245, 27, 27);
+    background-color: transparent;
+    color: rgb(245, 27, 27);
+}
+.delete-btn:hover{
+    border: 1px solid rgb(245, 27, 27);
+    background-color:rgb(245, 27, 27) ;
+    color: #FFF;
+    transition: all 0.35s ease-in;
+}
+.save-btn{
+    border: 1px solid rgb(3, 98, 23);
+    background-color: transparent;
+    color: rgb(3, 98, 23);
+}
+.save-btn:hover{
+    border: 1px solid rgb(3, 98, 23);
+    background-color:rgb(3, 98, 23);
+    color: #FFF;
+    transition: all 0.35s ease-in;
+}
